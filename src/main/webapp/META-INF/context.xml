@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/app">
+	<Resource auth="Container"
+		driverClassName="org.postgresql.Driver" maxIdle="10" maxTotal="10"
+		maxWaitMillis="10000" name="jdbc/dbtienda" password="root"
+		type="javax.sql.DataSource"
+		url="jdbc:postgresql://localhost:5432/dbtienda" username="postgres">
+	</Resource>
+</Context>
